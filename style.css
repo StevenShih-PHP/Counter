@@ -1,0 +1,15 @@
+img{
+    width: 3rem;
+    height: 3rem;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding:0;
+}
+li{
+    font-family: Impact;
+    font-weight: 700;
+    font-size:2rem;
+    margin-right: 0.5rem;
+}
