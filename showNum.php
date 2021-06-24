@@ -4,7 +4,7 @@
     imagecolorallocate($img, 255, 255, 255);
 
     $red = imagecolorallocate($img, 0, 0 ,255);
-    $font = imageloadfont('04b.gdf');
+    $font = imageloadfont('Impact');
     $text = $_GET["Num"];
 
     imagestring($img, $font, 0, 0, $text, $red);
